@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@styleguide-repro-nx/components": ["libs/components/src/index.ts"],
-      "@styleguide-repro-nx/components/btn": [
+      "@components/components": ["libs/components/src/index.ts"],
+      "@components/components/btn": [
         "libs/components/btn/src/index.ts"
       ],
       "@styleguide-repro-nx/styleguide": ["libs/styleguide/src/index.ts"]
