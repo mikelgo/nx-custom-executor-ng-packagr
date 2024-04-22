@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "version": 2,
+  "title": "Echo executor",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "ngPackageJson": {
+      "type": "string",
+      "description": "Path to the ng-package.json file of the Angular library to be built"
+    },
+    "tsConfig": {
+      "type": "string",
+      "description": "Path to the tsConfig.json file of the Angular library to be built"
+    }
+  },
+  "required": ["ngPackageJson", "tsConfig"]
+}

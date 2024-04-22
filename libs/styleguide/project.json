@@ -22,6 +22,14 @@
       },
       "defaultConfiguration": "production"
     },
+    "build-custom": {
+      "executor": "@styleguide-repro-nx/my-plugin:echo",
+      "options": {
+        "ngPackageJson": "libs/styleguide/ng-package.json",
+        "tsConfig": "libs/styleguide/tsconfig.lib.prod.json"
+      },
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"]
+    },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
