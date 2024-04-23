@@ -3,7 +3,7 @@ import { BtnModule } from '@components/components/btn';
 
 
 @NgModule({
-  imports: [BtnModule],
+  //imports: [BtnModule],
   exports: [BtnModule],
 })
 export class MaterialModule {}

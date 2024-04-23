@@ -28,7 +28,9 @@
         "ngPackageJson": "libs/styleguide/ng-package.json",
         "tsConfig": "libs/styleguide/tsconfig.lib.prod.json"
       },
-      "outputs": ["{workspaceRoot}/dist/{projectRoot}"]
+      "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "test": {
       "executor": "@nx/jest:jest",
